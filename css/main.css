@@ -1,0 +1,116 @@
+html{
+  background-color: rgb(236, 240, 241);
+}
+h1{
+    text-align: center;
+}
+header{
+  height: 20px;
+}
+body {
+    font-family: sans-serif;
+}
+.btnarea{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button{
+     display:block;
+     width: 200px;
+     height:70px;
+     line-height: 70px;
+     color: #FFF;
+     font-size: 1.2em;
+     text-decoration: none;
+     text-align: center;
+     background-color: navy; /*ボタン色*/
+     border-radius: 5px; /*角丸*/
+     -webkit-transition: all 0.5s;
+     transition: all 0.5s;
+     margin:10px;
+}
+.button:hover{
+     background-color: #5a5858; /*ボタン色*/
+}
+form{
+  padding: 0px 30px;
+}
+input,textarea{
+
+  width: 100%; /*親要素いっぱい広げる*/
+  padding: 10px 15px; /*ボックスを大きくする*/
+  font-size: 16px;
+  border-radius: 3px; /*ボックス角の丸み*/
+  border: 2px solid #ddd; /*枠線*/
+  box-sizing: border-box; /*横幅の解釈をpadding, borderまでとする*/
+
+}
+table{
+    width: 100%;
+    border:2px solid black;
+}
+/* tr{
+    border:1px solid black;
+} */
+th{
+    width: 15%;
+    background-color: grey;
+    color: white;
+}
+.comment{
+    width: 65%;
+    /* border:1px solid black; */
+
+}
+.deadline{
+    width: 10%;
+    /* border:1px solid black; */
+
+}
+.edit{
+    width: 10%;
+    /* border:1px solid black; */
+
+}
+
+.e_btn {
+  display: inline-block;
+  /* padding: 0.5em 1em; */
+  text-decoration: none;
+  background: #668ad8;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  width: 60px;
+  text-align: center;
+}
+.e_btn:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+.d_btn {
+  display: inline-block;
+  /* padding: 0.5em 1em; */
+  text-decoration: none;
+  background: #d86666;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  width: 60px;
+  text-align: center;
+}
+.d_btn:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+
+.viewarea{
+  padding: 0px 30px;
+  height: 500px;
+  overflow: scroll;
+}
